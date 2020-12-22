@@ -1,7 +1,7 @@
 # Verify your contract on Binance Smart Chain
 
 
-1. Install the plugin with npm
+1. Install the [plugin](https://github.com/rkalis/truffle-plugin-verify) with `npm`
 
 ```
 npm install -D truffle-plugin-verify
@@ -46,6 +46,6 @@ truffle migrate --network testnet
 5. Verify your contract
 
 ```
- truffle run verify BEP20Token@{deployed-address} --network testnet
+truffle run verify BEP20Token@{deployed-address} --network testnet
 
 ```
